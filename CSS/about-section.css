@@ -5,27 +5,11 @@
 }
 
 .left-about {
-    justify-content: flex-start;
-}
-
-.title-about {
-    margin-bottom: auto;
-    justify-self: flex-start;
-    font-size: 3.5rem;
-}
-
-.div-about {
-    margin: 0 0 21%;
-    width: 70%;
-}
-
-.paragraph-about span {
-    color: #e35145;
-}
-
-.paragraph-about {
-    line-height: 1.5;
-    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
 }
 
 .right-about {
@@ -34,36 +18,82 @@
     flex-direction: column;
     width: 50%;
     height: 100%;
-    justify-content: flex-start;
-    padding-top: 3%;
+    justify-content: space-between;
+}
+
+.head-about{
+    display: flex;
+    height: 8%;
+    width: 100%;
+    align-items: center;
+}
+
+.title-about {
+    font-size: 3.5rem;
+}
+
+.div-about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    width: 70%;
+}
+
+.div-about-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+}
+
+
+.paragraph-about {
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.paragraph-about span {
+    color: #e35145;
 }
 
 .bar {
-    margin-top: 15px;
     border-bottom: 8px solid #e35145;
     border-radius: 5px;
     font-size: 3.5rem;
     width: 100%;
 }
 
-.right-about p {
-    margin-top: 10%;
-    text-align: start;
-}
-
 .about-icons {
-    width: 90%;
-    margin-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
     color: #e35145;
+    text-align: center;
 }
 
 .about-icons i:hover {
     color: #ffffff;
 }
 
-.about-icons .fa-brands {
+.about-icons .icons-fa {
     text-align: center;
-    width: 150px;
-    padding: 0 30px;
-    margin: 0 0 25px;
+    width: 100px;
+    margin-bottom: 10px;
 }
+
+.span-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.span-icons:hover {
+    color: #ffffff;
+}
+
