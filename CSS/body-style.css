@@ -20,8 +20,7 @@ body {
     background-color: #17191d;
     color: #e35145;
     cursor: pointer;
-    border: transparent;
+    border: 2px solid #e35145;
     border-radius: 10px;
     font-size: 3.5rem;
-    box-shadow: 0 0 0 2px #e35145;
 }
