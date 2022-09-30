@@ -1,5 +1,41 @@
 .project-container {
     display: flex;
+    flex-direction: column;
     height: 700px;
     margin: 10% 0 0;
+}
+
+.head-project {
+    display: flex;
+    justify-content: space-between ;
+    height: 8%;
+    width: 100%;
+    align-items: center;
+}
+
+.head-project div {
+    width: 50%;
+}
+
+.body-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92%;
+    width: 100%;
+}
+
+.main-slider {
+    width: 70%;
+    height: 70%;
+}
+
+h5 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+#carouselExampleCaptions {
+    border: 2px solid #e35145;
 }
