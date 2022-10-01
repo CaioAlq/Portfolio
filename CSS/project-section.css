@@ -25,17 +25,4 @@
     width: 100%;
 }
 
-.main-slider {
-    width: 70%;
-    height: 70%;
-}
 
-h5 {
-    font-size: 2rem;
-    color: #ffffff;
-    margin-bottom: 15px;
-}
-
-#carouselExampleCaptions {
-    border: 2px solid #e35145;
-}
