@@ -57,22 +57,6 @@
     color: #e35145;
 }
 
-.nav-contacts {
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-}
-
-.anchor-contacts {
-    color: #a3a3a3;
-    font-size: 1.2rem;
-    transition: color 0.5s;
-}
-
-.anchor-contacts:hover {
-    color: #ffffff;
-}
-
 .btn-contact {
     color: #ffffff;
     width: 200px;
