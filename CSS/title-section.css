@@ -48,22 +48,27 @@
 .second-title {
     font-size: 2.5rem;
     margin: 15px 0 30px;
+    color: #e35145;
 }
 
 
 .paragraph-title {
     font-size: 3rem;
     margin: 15px 0;
-    color: #e35145;
 }
 
 .btn-contact {
     color: #ffffff;
     width: 200px;
-    padding: 20px 20px;
+    padding: 10px;
     margin-bottom: 6%;
     font-size: 1.5rem;
     background-color: #e35145;
+    border-radius: 3px;
+	border: none;
+    font-family: 'Ubuntu Mono', monospace;
+	cursor: pointer;
+    transition: background-color 0.5s;
 }
 
 .btn-contact:hover {

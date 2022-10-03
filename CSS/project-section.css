@@ -22,6 +22,10 @@
     border-left: 10px solid #e35145;
 }
 
+.slide-project span {
+    color: #e35145;
+}
+
 .h3-title {
     color: #ffffff;
     width: 45%;
@@ -34,6 +38,7 @@
     background-color: #e35145;
     color: #17191d;
     cursor: pointer;
+    border-radius: 0 3px 3px 0;
 }
 
 .right-project {

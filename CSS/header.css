@@ -15,6 +15,13 @@
     opacity: 1;
 }
 
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
 #blinker {
     font-size: 1rem;
     opacity: 0.6;
@@ -30,14 +37,14 @@
 }
 
 .nav-container {
+    width: 50%;
+    justify-content: space-between;
     box-sizing: border-box;
     display: flex;
-    width: 400px;
-    margin-left: 30%;
 }
 
 .nav-anchor {
-    width: 300px;
+    width: 100px;
     display: flex;;
     justify-content: center;
     color: #a3a3a3;
@@ -55,18 +62,6 @@
 }
 
 .button {
-    background-color: #ffffff;
-    border-radius: 3px;
-	color: #23272d;
-	border: none;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.2rem;
-	padding: 10px 20px;
-	cursor: pointer;
-    transition: background-color 0.5s;
+
 }
 
-.button:hover {
-    background-color: #e35145;
-    color: #ffffff;
-}
