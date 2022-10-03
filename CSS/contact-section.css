@@ -13,18 +13,25 @@
 }
 
 .data-contact {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 50%;
     margin: auto 0;
 }
 
-.nav-contacts {
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
+.paragraph-contact {
+    margin: 40px 0 auto;
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.paragraph-contact span {
+    color: #e35145;
 }
 
 .anchor-contacts {
+    margin-right: 60px;
     color: #a3a3a3;
     font-size: 1.2rem;
     transition: color 0.5s;
@@ -41,4 +48,57 @@
     width: 50%;
     height: 100%;
     justify-content: space-between;
+}
+
+.right-contact .data-contact {
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+.email-contact {
+    height: 17%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.paragraph-email {
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+.social-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 17%;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.social-links {
+    display: flex;
+}
+
+.data-contact i {
+    color: #e35145;
+}
+
+.email-copy {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copied {
+    height: 100%;
+    margin-right: 60px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #e35145;
+    border-radius: 5px;
+    cursor: pointer;
 }

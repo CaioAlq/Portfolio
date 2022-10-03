@@ -32,13 +32,13 @@
 
         <section class="header-container">    
                 <a href="#" class="logo">C:Alves<span id="blinker">_</span></a>
-                <nav class="nav-container">
-                    <a href="#about" class="nav-anchor">Sobre</a>
-                    <a href="#project" class="nav-anchor">Projetos</a>
-                    <a href="#contact" class="nav-anchor">Contatos</a>
-                </nav>
-
-                <button class="button">Download CV</button>
+                <div class="nav-header">
+                    <nav class="nav-container">
+                        <a href="#about" class="nav-anchor">Sobre</a>
+                        <a href="#project" class="nav-anchor">Projetos</a>
+                        <a href="#contact" class="nav-anchor">Contatos</a>
+                    </nav>
+                </div>
         </section> 
 
     </header>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
 
-                <button class="button btn-contact">Contate-me</button>
+                <button class="button btn-contact">Download CV</button>
             </div>
 
             <div class="right-container">
@@ -120,7 +120,7 @@
                     <a href=""><h3 class="h3-title active" id="btnTo">To Do List</h3></a> 
                     <a href=""><h3 class="h3-title active" id="btnTin">TinDog</h3></a>
                     <a href=""><h3 class="h3-title active" id="btnSimon">Simon Game</h3></a>
-                    <h3 class="h3-title">Em breve...</h3>
+                    <h3 class="h3-title"><span>Em breve...</span></h3>
                 </div>
             </div>
 
@@ -146,13 +146,7 @@
                 </div>
 
                 <div class="data-contact">
-                    <p>Entre em contato</p>
-                    <p>caioalqdev@gmail.com</p>
-                    
-                    <nav class="nav-contacts">
-                        <a href="#" class="anchor-contacts">LinkedIn</a>
-                        <a href="#" class="anchor-contacts">GitHub</a>
-                    </nav>
+                    <p class="paragraph-contact"><span>Gostou?</span> Sinta-se à vontade para entrar em contato</p>
                 </div>
             </div>
 
@@ -160,6 +154,25 @@
                 <div class="head-about">
                     <div class="bar"></div>
                 </div>
+
+                <div class="data-contact">
+                    <div class="email-contact">
+                        <p class="paragraph-email"><i class="fa-solid fa-envelope"></i> E-mail</p>
+                        <div class="email-copy">
+                            <p class="paragraph-email" id="email">caioalqdev@gmail.com</p>
+                            <button onclick="copiar()" class="copied" title="Copiar e-mail para seu clipboard"><i id="icon-button" class="fa-solid fa-copy"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="social-contact">
+                        <p class="paragraph-email"><i class="fa-solid fa-comment"></i> Sociais</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/caio-alq/" target="_blank" class="anchor-contacts"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                            <a href="https://github.com/CaioAlq" target="_blank" class="anchor-contacts"><i class="fa-brands fa-square-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </section>
 
@@ -167,11 +180,12 @@
 
     <footer>
         <span class="span-footer">&lt;/</span>
-        <h2 class="heading-footer">Desenvolvido por Caio Alves © 2022 </h2>
+        <h2 class="heading-footer">Desenvolvido por Caio Alves © 2022</h2>
     </footer>
 
     <script src="/JS/typeWriter.js"></script>
     <script src="/JS/buttonUp.js"></script>
     <script src="/JS/showProject.js"></script>
+    <script src="/JS/copyButton.js"></script>
 </body>
 </html>
