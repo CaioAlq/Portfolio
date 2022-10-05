@@ -83,3 +83,23 @@
     margin-top: 6%;
     width: 90;
 }
+
+@media screen and (max-width: 1440px), 
+       screen and (max-height: 900px) 
+       {
+
+        .img-container {
+            height: 550px;
+            width: 550px;
+    }
+}
+
+@media screen and (max-width: 1366px), 
+       screen and (max-height: 768px) 
+       {
+
+        .img-container {
+            height: 500px;
+            width: 500px;
+    }
+}

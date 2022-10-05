@@ -72,3 +72,46 @@
     transition: 1s;
     visibility: visible;
 }
+
+/* Media Screen */
+
+@media screen and (max-width: 1680px), 
+       screen and (min-height: 1050px) 
+       {
+
+    .image-project {
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 1440px), 
+       screen and (max-height: 900px) 
+       {
+
+        .image-project {
+            height: 45%;
+        }
+
+        .h3-title {
+            font-size: 1.3rem;
+        }
+
+}
+
+@media screen and (max-width: 1366px), 
+       screen and (max-height: 768px) 
+       {
+
+        .image-project {
+            height: 50%;
+        }
+
+        .h3-title {
+            font-size: 1.2rem;
+        }
+
+        .project-container {
+            height: 600px;
+        }
+
+}

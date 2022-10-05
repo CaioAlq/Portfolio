@@ -79,6 +79,7 @@
 }
 
 .about-icons .icons-fa {
+    font-size: 3rem;
     text-align: center;
     width: 100px;
     margin-bottom: 10px;
@@ -95,5 +96,30 @@
 
 .span-icons:hover {
     color: #ffffff;
+}
+
+/* Media Screen */
+
+@media screen and (max-width: 1680px), 
+       screen and (min-height: 1050px) 
+    {
+        .about-icons .icons-fa {
+            font-size: 2rem;
+            width: 80px;
+        }
+
+        .span-icons {
+            font-size: 1rem;
+            width: 80px;
+        }
+}
+
+@media screen and (max-width: 1440px), 
+       screen and (max-height: 900px) 
+       {
+
+        .about-container {
+            margin: 2% 0 0;
+    }
 }
 

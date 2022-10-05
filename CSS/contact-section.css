@@ -94,11 +94,44 @@
 
 .copied {
     height: 100%;
-    margin-right: 60px;
     font-family: 'Ubuntu Mono', monospace;
     color: #ffffff;
     background-color: transparent;
     border: 1px solid #e35145;
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media screen and (min-width: 1681px) 
+       {
+        .copied {
+            margin-right: 20%;
+        }
+    }
+
+@media screen and (max-width: 1680px), 
+       screen and (max-height: 1050px) 
+       {
+
+        .contact-container {
+            margin: 2% 0 0;
+    }
+}
+
+@media screen and (max-width: 1600px), 
+       screen and (max-height: 900px) 
+       {
+
+        .contact-container {
+            margin: 0 0;
+        }
+
+}
+
+@media screen and (max-width: 1440px), 
+       screen and (max-height: 900px) 
+       {
+        .copied {
+            margin-right: -10%;
+        }
 }
