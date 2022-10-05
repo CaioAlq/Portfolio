@@ -15,7 +15,7 @@
 .slide-project{
     display: flex;
     flex-direction: column;
-    justify-content: space-between ;
+    justify-content: space-between;
     width: 50%;
     height: 50%;
     margin: auto 0;
@@ -115,3 +115,60 @@
         }
 
 }
+
+@media screen and (max-width: 1280px), 
+       screen and (max-height: 800px) 
+       {
+
+        .image-project {
+            height: 45%;
+        }
+
+}
+
+@media screen and (max-width: 1024px)
+    {
+
+        .project-container {
+            height: 450px;
+        }
+
+        .image-project {
+            display: none;
+        }
+
+
+        .left-project {
+            position: relative;
+            width: 50%;
+        }
+
+        .slide-project {
+            position: absolute;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 150%;
+            top: 40%;
+            left: 25%;
+            border-left: none;
+            border-top: 10px solid #e35145;
+            margin: 0 auto;
+        }
+
+        #breve {
+            position: absolute;
+            top: 40%;
+        }
+
+        .h3-title {
+            text-align: center;
+            margin-top: 30px;
+            margin-right: 30%px;
+            width: 100%;
+            padding: 0;
+        }
+
+        .active:hover {
+            border-radius: 5px;
+        }
+    }

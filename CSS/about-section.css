@@ -123,3 +123,10 @@
     }
 }
 
+@media screen and (max-width: 1583px)
+        {
+        .div-about-right .paragraph-about {
+            font-size: 1.3rem;
+        }
+}
+

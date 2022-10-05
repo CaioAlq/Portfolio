@@ -3,7 +3,7 @@
 let dice = document.getElementById("btnDice");
 let toDo = document.getElementById("btnTo");
 let tinDog = document.getElementById("btnTin");
-let simon = document.getElementById("btnSimon")
+let simon = document.getElementById("btnSimon");
 
 //Evento Dice
 
