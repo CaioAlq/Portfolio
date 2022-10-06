@@ -26,6 +26,8 @@ body {
     font-size: 3.5rem;
 }
 
+/* Media Screen */
+
 @media screen and (max-width: 1366px), 
        screen and (max-height: 768px) 
        {
@@ -41,6 +43,17 @@ body {
     {
         body {
             padding: 0 3%;
+        }
+
+        #myBtn {
+            visibility: hidden;
+        }
+}
+
+@media screen and (max-width: 768px)
+    {
+        body {
+            padding: 0 2%;
         }
 
         #myBtn {

@@ -24,3 +24,13 @@ footer {
     color: #17191d;
     cursor: default;
 }
+
+
+/* Media Screen */ 
+
+@media screen and (max-width: 768px) {
+
+    .span-footer {
+        left: 10%;
+    }
+}

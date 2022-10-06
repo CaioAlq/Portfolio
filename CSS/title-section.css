@@ -84,6 +84,8 @@
     width: 90;
 }
 
+/* Media Screen */
+
 @media screen and (max-width: 1440px), 
        screen and (max-height: 900px) 
        {
@@ -101,5 +103,37 @@
         .img-container {
             height: 500px;
             width: 500px;
-    }
+        }
+
+        .main-title {
+            font-size: 5rem;
+        }
+}
+
+@media screen and (max-width: 768px)
+    {
+        .home-container {
+            position: relative;
+            flex-direction: column-reverse;
+            height: 100%;
+            margin-top: 20%;
+        }
+
+        .right-container {
+            width: 100%;
+            margin-top: -100px;
+            margin-bottom: 100px;
+        }
+
+        .left-container {
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            margin-top: -100px;
+        }
+
+        .btn-contact{
+            margin-top: 50px;
+        }
+
 }

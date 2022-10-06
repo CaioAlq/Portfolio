@@ -130,3 +130,35 @@
         }
 }
 
+@media screen and (max-width: 768px)
+    {
+        .about-container {
+            flex-direction: column;
+            width: 100%;
+            margin-top: 10%;
+        }
+
+        .left-about{
+            width: 100%;
+            text-align: center;
+        }
+
+        .head-about {
+            justify-content: center;
+        }
+
+        .div-about-left {
+            width: 100%;
+        }
+
+        .right-about{
+            margin-top: -10%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .about-icons {
+            margin: 5% 0;
+        }
+}
+

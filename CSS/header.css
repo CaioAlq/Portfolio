@@ -61,6 +61,8 @@
     color: #e35145;
 }
 
+/* Media Screen */
+
 @media screen and (max-width: 1440px), 
        screen and (max-height: 900px) 
        {
@@ -69,10 +71,29 @@
             width: 120px;
         }
 
+        .nav-header {
+            width: 500px;
+        }
+
+        .nav-container {
+            width: 350px;
+        }
+
 }
 
-@media screen and (max-width: 1024px), 
-       screen and (max-height: 768px) 
+@media screen and (max-width: 768px)
     {
+
+        .header-container {
+            justify-content: space-evenly;
+        }
+
+        .nav-header {
+            width: 50%;
+        }
+
+        .nav-container {
+            width: 350px;
+        }
 
 }
