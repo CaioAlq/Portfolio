@@ -146,7 +146,7 @@
         .slide-project {
             position: absolute;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-evenly;
             width: 150%;
             top: 40%;
             left: 25%;
@@ -158,6 +158,7 @@
         #breve {
             position: absolute;
             top: 40%;
+            left: 2%;
         }
 
         .h3-title {
@@ -166,6 +167,13 @@
             margin-right: 30%;
             width: 100%;
             padding: 0;
+        }
+
+        .active {
+            width: 120px;
+            padding: 3% 0;
+            background-color: #e35145;
+            border-radius: 5px;
         }
 
         .active:hover {
@@ -186,15 +194,22 @@
         }
 
         .right-project {
-            margin-top: -20%;
+            margin-top: -25%;
             width: 100%;
+        }
+
+        .active {
+            padding: 3% 0;
+            width: 120%;
+            background-color: #e35145;
+            border-radius: 5px;
         }
 
         .slide-project {
             margin-top: -5%;
             position: absolute;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-evenly;
             top: 70%;
             left: 0;
             width: 100%;
@@ -204,5 +219,13 @@
         #breve {
             position: absolute;
             top: 50%;
+            left: 2%;
+        }
+    }
+
+
+    @media screen and (max-width: 480px) {
+        .left-project {
+            margin-top: 80%;
         }
     }

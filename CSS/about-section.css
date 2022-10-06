@@ -162,3 +162,18 @@
         }
 }
 
+@media screen and (max-width: 480px) 
+    {
+        .left-about {
+            margin-top: 20%;
+        }
+
+        .title-about {
+            margin-bottom: 15%;
+        }
+
+        .right-about {
+            margin-top: 10%;
+        }
+    }
+

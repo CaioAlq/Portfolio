@@ -31,7 +31,8 @@
 }
 
 .anchor-contacts {
-    margin-right: 60px;
+    width: 200px;
+    margin-right: 40px;
     color: #a3a3a3;
     font-size: 1.2rem;
     transition: color 0.5s;
@@ -102,6 +103,10 @@
     cursor: pointer;
 }
 
+.fa-envelope, .fa-comment, .fa-linkedin-in, .fa-square-github {
+    margin-right: 5%;
+}
+
 /* Media Screen */
 
 @media screen and (min-width: 1681px) 
@@ -162,6 +167,23 @@
         }
 }
 
+@media screen and (max-width: 1024px)
+    {
+        .anchor-contacts {
+            color: #ffffff;
+            width: 120px;
+            padding: 10px 0;
+            background-color: #e35145;
+            border-radius: 5px;
+            text-align: center;
+            margin-right: 5%;
+        }
+
+        .anchor-contacts i {
+            color: #17191d;
+        }
+    }
+
 @media screen and (max-width: 768px) {
         .contact-container {
             flex-direction: column;
@@ -220,7 +242,43 @@
         }
 
         .anchor-contacts {
+            color: #ffffff;
+            width: 120px;
+            padding: 10px 0;
+            background-color: #e35145;
+            border-radius: 5px;
+            text-align: center;
             margin: 0;
         }
+
+        .anchor-contacts i {
+            color: #17191d;
+        }
         
+}
+
+
+@media screen and (max-width: 480px) {
+    .left-contact {
+        margin-top: 20%;
+    }
+
+    .paragraph-contact {
+        margin-top: 0;
+    }
+
+    .social-links {
+        margin-top: 10%;
+    }
+
+    .anchor-contacts {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-right: 10%;
+    }
+
+    .anchor-contacts:nth-child(1) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }

@@ -34,3 +34,9 @@ footer {
         left: 10%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .span-footer {
+        visibility: hidden;
+    }
+}

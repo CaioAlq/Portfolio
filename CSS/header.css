@@ -61,6 +61,10 @@
     color: #e35145;
 }
 
+.icon-hamb {
+    display: none;
+}
+
 /* Media Screen */
 
 @media screen and (max-width: 1440px), 
@@ -96,4 +100,40 @@
             width: 350px;
         }
 
+}
+
+@media screen and (max-width: 667px)
+    {
+
+        .header-container {
+            justify-content: space-evenly;
+        }
+
+        .nav-header {
+            width: 50%;
+        }
+
+        .nav-container {
+            width: 350px;
+        }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .header-container {
+        justify-content: space-between;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .nav-header {
+        display: none;
+    }
+
+    .icon-hamb {
+        font-size: 25px;
+        color: #e35145;
+        display: flex;
+    }
 }
