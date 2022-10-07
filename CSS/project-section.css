@@ -22,7 +22,7 @@
     border-left: 10px solid #e35145;
 }
 
-.slide-project span {
+#breve {
     color: #e35145;
 }
 
@@ -71,6 +71,13 @@
 .image-exposed {
     transition: 1s;
     visibility: visible;
+}
+
+#breve:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #e35145;
+    border-radius: 0 3px 3px 0;
 }
 
 /* Media Screen */
@@ -156,9 +163,17 @@
         }
 
         #breve {
+            color: #ffffff;
+            background-color: #e35145;
+            width: 200px;
             position: absolute;
             top: 40%;
-            left: 2%;
+            left: 35%;
+            border-radius: 5px;
+        }
+
+        #breve:hover {
+            border-radius: 5px;
         }
 
         .h3-title {
@@ -219,7 +234,7 @@
         #breve {
             position: absolute;
             top: 50%;
-            left: 2%;
+            left: 35%;
         }
     }
 
@@ -256,7 +271,7 @@
         #breve {
             position: absolute;
             top: 130%;
-            left: 15%;
+            left: 20%;
         }
     }
 
@@ -264,6 +279,10 @@
     .left-project {
         margin-top: 80%;
         margin-bottom: -10%;
+    }
+
+    #breve {
+        left: 12%;
     }
 
 }
