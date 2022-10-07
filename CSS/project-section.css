@@ -238,6 +238,18 @@
         }
     }
 
+    @media screen and (max-width: 568px) {
+        .project-container {
+            margin-top: 50%;
+        }
+
+        #breve {
+            left: 30%;
+        }
+    }
+    
+
+
 
     @media screen and (max-width: 480px) {
         .left-project {

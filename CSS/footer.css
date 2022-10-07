@@ -35,6 +35,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 568px) {
+    .span-footer {
+        visibility: hidden;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .span-footer {
         visibility: hidden;

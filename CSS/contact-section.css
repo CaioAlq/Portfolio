@@ -257,6 +257,16 @@
         
 }
 
+@media screen and (max-width: 568px) {
+
+    .contact-container {
+        flex-direction: column;
+        width: 100%;
+        margin-top: -20%;
+    }    
+
+}
+
 
 @media screen and (max-width: 480px) {
 
