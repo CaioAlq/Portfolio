@@ -28,6 +28,12 @@ footer {
 
 /* Media Screen */ 
 
+@media screen and (max-width: 895px) {
+    .span-footer {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .span-footer {
@@ -47,6 +53,7 @@ footer {
     }
 
     footer {
+        margin-top: 20%;
         height: 100px;
     }
 }
