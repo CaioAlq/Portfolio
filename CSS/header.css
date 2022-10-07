@@ -129,11 +129,35 @@
 
     .nav-header {
         display: none;
+        position: absolute;
+        top: 10%;
+        left: 25%;
     }
 
     .icon-hamb {
         font-size: 25px;
         color: #e35145;
         display: flex;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .nav-container {
+       width: 280px;
+    }
+
+    .nav-header {
+        display: none;
+        position: absolute;
+        top: 12%;
+        left: 25%;
+    }
+
+}
+
+@media screen and (max-height: 570px) {
+    .nav-header {
+        top: 10%;
     }
 }

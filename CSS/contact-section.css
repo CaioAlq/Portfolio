@@ -259,16 +259,22 @@
 
 
 @media screen and (max-width: 480px) {
+
+    .contact-container {
+        margin-bottom: 25%;
+    }
+
     .left-contact {
-        margin-top: 20%;
+        margin-top: 70%;
     }
 
     .paragraph-contact {
         margin-top: 0;
     }
 
-    .social-links {
-        margin-top: 10%;
+    .right-contact {
+        margin-top: 5%;
+        margin-bottom: 40%;
     }
 
     .anchor-contacts {
@@ -280,5 +286,12 @@
     .anchor-contacts:nth-child(1) {
         padding-left: 5%;
         padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .contact-container {
+        margin-bottom: 0;
     }
 }

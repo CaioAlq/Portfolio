@@ -39,4 +39,8 @@ footer {
     .span-footer {
         visibility: hidden;
     }
+
+    footer {
+        height: 100px;
+    }
 }

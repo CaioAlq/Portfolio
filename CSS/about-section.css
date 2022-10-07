@@ -169,11 +169,15 @@
         }
 
         .title-about {
-            margin-bottom: 15%;
+            margin-bottom: 25%;
         }
 
-        .right-about {
-            margin-top: 10%;
+        .paragraph-about {
+            margin-bottom: 10%;
+        }
+
+        .paragraph-about:nth-child(1) {
+            margin-top: -10%;
         }
     }
 
