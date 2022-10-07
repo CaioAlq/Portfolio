@@ -241,7 +241,7 @@
 
     @media screen and (max-width: 480px) {
         .left-project {
-            margin-top: 60%;
+            margin-top: 30%;
             margin-bottom: -10%;
         }
 
@@ -271,7 +271,7 @@
         #breve {
             position: absolute;
             top: 130%;
-            left: 20%;
+            left: 26%;
         }
     }
 
