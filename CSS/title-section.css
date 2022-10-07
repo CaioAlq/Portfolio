@@ -156,6 +156,22 @@
     
 }
 
+@media screen and (max-width: 414px) {
+
+    .home-container {
+        margin-top: 35%;
+    }
+
+    .right-container {
+        margin-bottom: -5%;
+    }
+
+    .left-container {
+        margin-top: -5%;
+    }
+    
+}
+
 @media screen and (max-width: 320px) {
 
     .right-container {

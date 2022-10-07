@@ -287,6 +287,12 @@
         }
     }
 
+@media screen and (max-width: 414px) {
+    .project-container {
+        margin-top: 70%;
+    }
+}
+
 
 @media screen and (max-width: 375px) {
 
